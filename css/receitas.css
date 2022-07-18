@@ -1,0 +1,54 @@
+section{
+    padding: 120px 120px 120px 120px;
+}
+
+section h1{
+    font-size: 50px;
+    font-weight: 700;
+    color: #FFA000;
+    padding: 0px 0px 69px 0px;
+}
+
+section article{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+section article .bottom-right{
+    margin: 0px 70px 116px 0px;
+}
+
+section article .bottom{
+    margin: 0px 0px 116px 0px;
+}
+
+section article .left{
+    margin: 0px 0px 128px 70px;
+}
+
+section article .footer1{
+    margin: 0px 0px 128px 0px;
+}
+
+section article div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+section article span{
+    font-size: 26px;
+    font-weight: 600;
+    color: #000000;
+    margin: 17px 0px 17px 0px;
+}
+
+section article a{
+    font-size: 24px;
+    font-weight: 700;
+    color: #FFFFFF;
+    background: #176902;
+    padding: 10px 50px 10px 47px;
+    width: 185px;
+}

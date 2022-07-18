@@ -1,0 +1,95 @@
+section .banner1 {
+    display: flex;
+}
+
+section .banner1 img{
+    position: relative;
+    width: 100%;
+}
+
+section .banner1 p{
+    position: absolute;
+    font-size: 70px;
+    font-weight: 700;
+    color: #FFFFFF;
+    z-index: 1;
+    width: 370px;
+    margin: 166px 101px 0px 1080px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.36);
+}
+
+section h1{
+    font-size: 55px;
+    font-weight: 700;
+    color: #FFA000;
+    padding: 74px 0px 73px 0px;
+    text-align: center;
+}
+
+section article{
+    padding: 0px 120px 120px 120px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+section article .left-bottom{
+    margin: 0px 70px 158px 0px;
+}
+
+section article .bottom{
+    margin: 0px 0px 158px 0px;
+}
+
+section article div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+section article span{
+    font-size: 26px;
+    font-weight: 600;
+    color: #000000;
+    margin: 17px 0px 17px 0px;
+}
+
+section article a{
+    font-size: 24px;
+    font-weight: 700;
+    color: #FFFFFF;
+    background: #176902;
+    padding: 10px 50px 10px 47px;
+    width: 185px;
+}
+
+section .banner2 {
+    display: flex;
+}
+
+section .banner2 img{
+    position: relative;
+    width: 100%;
+}
+
+section .banner2 span{
+    position: absolute;
+    font-size: 65px;
+    font-weight: 700;
+    color: #FFFFFF;
+    z-index: 1;
+    width: 588px;
+    margin: 163px 0px 513px 122px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+section .banner2 p{
+    position: absolute;
+    font-size: 24px;
+    font-weight: 500;
+    color: #FFFFFF;
+    z-index: 1;
+    width: 424px;
+    margin: 332px 0px 107px 123px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}

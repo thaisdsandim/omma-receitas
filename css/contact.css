@@ -1,0 +1,86 @@
+section .banner3 {
+    display: flex;
+}
+
+section .banner3 img{
+    position: relative;
+    width: 100%;
+}
+
+section .banner3 h1{
+    position: absolute  ;
+    font-size: 70px;
+    font-weight: 700;
+    color: #FFFFFF;
+    z-index: 1;
+    width: 419px;
+    margin: 49px 0px 0px 122px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.36);
+}
+
+section .contato{
+    padding: 150px;
+    display: flex;
+}
+
+section .contato img{
+    border-radius: 20px;
+}
+
+section .contato form{
+    width: 820px;
+    height: 766px;
+    border: 1px solid #FFA000;
+    border-radius: 20px;
+    margin: 0px 0px 0px 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 60px 30px 60px 30px;
+    background: #FFFFFF;
+}
+
+section .contato form label{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    color: #FFC107;
+    align-self: flex-start;
+    margin: 0px 0px 80px 0px;
+}
+
+section .contato form input{
+    font-family: 'Nunito', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #58555D;
+    border: 1px solid #FFA000;
+    border-radius: 7px;
+    width: 750px;
+    padding: 15px 30px 15px 30px;
+    margin: 0px 0px 20px 0px;
+}
+
+section .contato form textarea{
+    font-family: 'Nunito', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #58555D;
+    border: 1px solid #FFA000;
+    border-radius: 7px;
+    width: 750px;
+    padding: 15px 30px 200px 30px;
+    margin: 0px 0px 20px 0px;
+    resize: none;
+}
+
+section .contato form #submit{
+    font-family: 'Nunito', sans-serif;
+    font-size: 16px;
+    font-weight: 800px;
+    color: #FFFFFF;
+    background: #FFC107;
+    border-radius: 50px;
+    width: 170px;
+    align-self: flex-start;
+}
